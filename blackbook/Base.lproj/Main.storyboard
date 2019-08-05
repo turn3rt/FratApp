@@ -158,15 +158,6 @@
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMu-CO-f5n" customClass="UIViewX" customModule="blackbook" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ΠΚΦ ▾" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="kjJ-XD-wQo">
-                                        <rect key="frame" x="78" y="47" width="79" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="79" id="g7Z-f3-4oL"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uLn-ed-fu4">
                                         <rect key="frame" x="24" y="38" width="42" height="42"/>
                                         <constraints>
@@ -179,7 +170,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chad ▾" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="E7P-hY-WfV">
-                                        <rect key="frame" x="165" y="47" width="79" height="30"/>
+                                        <rect key="frame" x="165" y="48.333333333333336" width="79" height="27.333333333333336"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="79" id="AR9-JI-GTJ"/>
                                         </constraints>
@@ -187,19 +178,26 @@
                                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="od5-QB-duw">
+                                        <rect key="frame" x="74" y="45" width="79" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="79" id="Lwc-Ld-HRu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
+                                        <state key="normal" title="ΠΚΦ ▾"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="124" id="3C5-Cu-ung"/>
+                                    <constraint firstItem="od5-QB-duw" firstAttribute="centerY" secondItem="wMu-CO-f5n" secondAttribute="centerY" id="7vO-cl-fAb"/>
+                                    <constraint firstItem="E7P-hY-WfV" firstAttribute="leading" secondItem="od5-QB-duw" secondAttribute="trailing" constant="12" id="8nB-oG-gIY"/>
                                     <constraint firstItem="uLn-ed-fu4" firstAttribute="leading" secondItem="wMu-CO-f5n" secondAttribute="leading" constant="24" id="Oap-a7-5v5"/>
-                                    <constraint firstItem="kjJ-XD-wQo" firstAttribute="top" secondItem="wMu-CO-f5n" secondAttribute="top" constant="47" id="XZo-iq-h2W"/>
-                                    <constraint firstItem="kjJ-XD-wQo" firstAttribute="leading" secondItem="wMu-CO-f5n" secondAttribute="leading" constant="78" id="cdk-FH-aLR"/>
-                                    <constraint firstItem="E7P-hY-WfV" firstAttribute="leading" secondItem="kjJ-XD-wQo" secondAttribute="trailing" constant="8" symbolic="YES" id="jfS-NP-Cj2"/>
-                                    <constraint firstItem="kjJ-XD-wQo" firstAttribute="centerY" secondItem="wMu-CO-f5n" secondAttribute="centerY" id="om3-oz-nPD"/>
-                                    <constraint firstItem="E7P-hY-WfV" firstAttribute="bottom" secondItem="kjJ-XD-wQo" secondAttribute="bottom" id="qAi-bG-Pyd"/>
+                                    <constraint firstItem="od5-QB-duw" firstAttribute="centerY" secondItem="E7P-hY-WfV" secondAttribute="centerY" id="bb3-cf-SvT"/>
+                                    <constraint firstItem="od5-QB-duw" firstAttribute="leading" secondItem="uLn-ed-fu4" secondAttribute="trailing" constant="8" symbolic="YES" id="m2Z-wb-MJ0"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="124" id="uHf-dY-iSe"/>
                                     <constraint firstItem="uLn-ed-fu4" firstAttribute="top" secondItem="wMu-CO-f5n" secondAttribute="top" constant="38" id="xXe-7B-uHh"/>
-                                    <constraint firstItem="E7P-hY-WfV" firstAttribute="top" secondItem="kjJ-XD-wQo" secondAttribute="top" id="zhc-oJ-16e"/>
+                                    <constraint firstItem="od5-QB-duw" firstAttribute="top" secondItem="wMu-CO-f5n" secondAttribute="top" constant="45" id="zvf-C9-V01"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
@@ -214,7 +212,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0td-I4-ES1" customClass="UIViewX" customModule="blackbook" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="724" width="375" height="600"/>
+                                <rect key="frame" x="0.0" y="722.66666666666663" width="375" height="599.99999999999989"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="tIa-Ck-RvG">
                                         <rect key="frame" x="24" y="24" width="109" height="38"/>
@@ -483,15 +481,6 @@ NICKNAME: Randy Yea</string>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQf-Li-inh" customClass="UIViewX" customModule="blackbook" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ΠΚΦ ▾" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="dV9-5f-AYo">
-                                        <rect key="frame" x="78" y="47" width="79" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="79" id="eFl-1V-CCa"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXl-UI-D0l">
                                         <rect key="frame" x="24" y="38" width="42" height="42"/>
                                         <constraints>
@@ -501,7 +490,7 @@ NICKNAME: Randy Yea</string>
                                         <state key="normal" image="public-museum-sign.png"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chad ▾" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="ZCL-d0-fCf">
-                                        <rect key="frame" x="165" y="47" width="79" height="30"/>
+                                        <rect key="frame" x="165" y="47.333333333333336" width="79" height="29.666666666666664"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="79" id="sOR-F3-CWl"/>
                                         </constraints>
@@ -509,19 +498,27 @@ NICKNAME: Randy Yea</string>
                                         <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPJ-1r-nOd">
+                                        <rect key="frame" x="74" y="45" width="79" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="79" id="Xsd-PB-Gus"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="24"/>
+                                        <state key="normal" title="ΠΚΦ ▾"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="dV9-5f-AYo" firstAttribute="top" secondItem="qQf-Li-inh" secondAttribute="top" constant="47" id="0Q1-7k-gxv"/>
                                     <constraint firstItem="dXl-UI-D0l" firstAttribute="leading" secondItem="qQf-Li-inh" secondAttribute="leading" constant="24" id="0bf-Gd-LXF"/>
                                     <constraint firstItem="dXl-UI-D0l" firstAttribute="top" secondItem="qQf-Li-inh" secondAttribute="top" constant="38" id="1eX-gn-Va3"/>
-                                    <constraint firstItem="ZCL-d0-fCf" firstAttribute="leading" secondItem="dV9-5f-AYo" secondAttribute="trailing" constant="8" symbolic="YES" id="GSe-P7-LIg"/>
-                                    <constraint firstItem="ZCL-d0-fCf" firstAttribute="top" secondItem="dV9-5f-AYo" secondAttribute="top" id="SiY-pi-9Me"/>
+                                    <constraint firstItem="NPJ-1r-nOd" firstAttribute="baseline" secondItem="ZCL-d0-fCf" secondAttribute="baseline" id="J3A-FW-565"/>
+                                    <constraint firstItem="NPJ-1r-nOd" firstAttribute="top" secondItem="qQf-Li-inh" secondAttribute="top" constant="45" id="LaB-kt-Vmu"/>
+                                    <constraint firstItem="NPJ-1r-nOd" firstAttribute="centerY" secondItem="ZCL-d0-fCf" secondAttribute="centerY" id="Q0R-4k-jlO"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="124" id="Zwg-Db-5KH"/>
                                     <constraint firstAttribute="height" constant="124" id="ds2-AF-QfU"/>
-                                    <constraint firstItem="dV9-5f-AYo" firstAttribute="leading" secondItem="qQf-Li-inh" secondAttribute="leading" constant="78" id="jgw-pP-GEr"/>
-                                    <constraint firstItem="dV9-5f-AYo" firstAttribute="centerY" secondItem="qQf-Li-inh" secondAttribute="centerY" id="lxi-ze-OwQ"/>
-                                    <constraint firstItem="ZCL-d0-fCf" firstAttribute="bottom" secondItem="dV9-5f-AYo" secondAttribute="bottom" id="qR7-xj-Cyt"/>
+                                    <constraint firstItem="ZCL-d0-fCf" firstAttribute="leading" secondItem="NPJ-1r-nOd" secondAttribute="trailing" constant="12" id="gUD-Xn-w59"/>
+                                    <constraint firstItem="NPJ-1r-nOd" firstAttribute="leading" secondItem="dXl-UI-D0l" secondAttribute="trailing" constant="8" symbolic="YES" id="wtg-Uq-FCe"/>
+                                    <constraint firstItem="NPJ-1r-nOd" firstAttribute="centerY" secondItem="qQf-Li-inh" secondAttribute="centerY" id="xRl-GV-qDF"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
@@ -625,8 +622,8 @@ NICKNAME: Randy Yea</string>
                             <constraint firstItem="qQf-Li-inh" firstAttribute="trailing" secondItem="GHf-dy-Cqw" secondAttribute="trailing" id="Dzw-cB-AV7"/>
                             <constraint firstItem="4A4-JD-CAC" firstAttribute="centerX" secondItem="mBM-hs-gTi" secondAttribute="centerX" id="GUR-1v-pmU"/>
                             <constraint firstItem="bmj-Os-2Lv" firstAttribute="leading" secondItem="GHf-dy-Cqw" secondAttribute="leading" id="Shh-tf-Tct"/>
-                            <constraint firstItem="Jge-tQ-KBh" firstAttribute="top" secondItem="ZCL-d0-fCf" secondAttribute="bottom" constant="647" id="WY1-pH-Ytw"/>
                             <constraint firstItem="qQf-Li-inh" firstAttribute="leading" secondItem="GHf-dy-Cqw" secondAttribute="leading" id="Wmi-ez-9rp"/>
+                            <constraint firstItem="Jge-tQ-KBh" firstAttribute="top" secondItem="ZCL-d0-fCf" secondAttribute="bottom" constant="647" id="X1C-0J-AcR"/>
                             <constraint firstItem="bmj-Os-2Lv" firstAttribute="trailing" secondItem="GHf-dy-Cqw" secondAttribute="trailing" id="adW-b5-EI1"/>
                             <constraint firstItem="0TL-Wz-brb" firstAttribute="leading" secondItem="GHf-dy-Cqw" secondAttribute="leading" id="c0i-Km-DPw"/>
                             <constraint firstItem="Jge-tQ-KBh" firstAttribute="trailing" secondItem="GHf-dy-Cqw" secondAttribute="trailing" id="eHu-WO-MzV"/>
@@ -642,7 +639,7 @@ NICKNAME: Randy Yea</string>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="X7y-ga-Dv2"/>
                     <connections>
-                        <outlet property="closedTrayContraint" destination="WY1-pH-Ytw" id="FxG-T8-Lwu"/>
+                        <outlet property="closedTrayConstraint" destination="X1C-0J-AcR" id="8Pq-t7-1H2"/>
                         <outlet property="collectionView" destination="YTQ-m9-pZ8" id="o4s-BE-3GA"/>
                         <outlet property="factsTray" destination="Jge-tQ-KBh" id="3mj-hr-5hm"/>
                         <outlet property="trayHeight" destination="flI-JE-Lc2" id="5JH-9I-mcb"/>
@@ -655,7 +652,7 @@ NICKNAME: Randy Yea</string>
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3065" y="-1247"/>
+            <point key="canvasLocation" x="3064.8000000000002" y="-1247.2906403940888"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="U4h-0T-qWI">

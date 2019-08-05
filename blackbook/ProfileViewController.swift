@@ -13,7 +13,9 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
     // MARK: - IBOutlets
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var factsTray: UIViewX!
-    @IBOutlet weak var closedTrayContraint: NSLayoutConstraint! // default 647
+    @IBOutlet weak var closedTrayContraint: NSLayoutConstraint!
+    
+    // @IBOutlet weak var closedTrayContraint: NSLayoutConstraint! // default 647
     @IBOutlet weak var trayHeight: NSLayoutConstraint!
     
     
