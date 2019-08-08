@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		B33712BA22EBCBBA00883CB9 /* torch (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B33712B922EBCBBA00883CB9 /* torch (1).png */; };
 		B33712BC22EBDB4500883CB9 /* public-museum-sign.png in Resources */ = {isa = PBXBuildFile; fileRef = B33712BB22EBDB4400883CB9 /* public-museum-sign.png */; };
+		B33EDDCA22FBAE7A004F4267 /* mainIcon32px.png in Resources */ = {isa = PBXBuildFile; fileRef = B33EDDC922FBAE79004F4267 /* mainIcon32px.png */; };
+		B33EDDCC22FBB224004F4267 /* UIBarButtonItemX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33EDDCB22FBB224004F4267 /* UIBarButtonItemX.swift */; };
 		B35E3DB522E8FE0E005968E3 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B35E3DB222E8FE0D005968E3 /* facebook.png */; };
 		B35E3DB622E8FE0E005968E3 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = B35E3DB322E8FE0D005968E3 /* twitter.png */; };
 		B35E3DB722E8FE0E005968E3 /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = B35E3DB422E8FE0D005968E3 /* instagram.png */; };
+		B37B9B8922F7BFE800FD776C /* mainIcon24px.png in Resources */ = {isa = PBXBuildFile; fileRef = B37B9B8822F7BFE700FD776C /* mainIcon24px.png */; };
 		B37D9F4B22CD9459001384E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9F4A22CD9459001384E3 /* AppDelegate.swift */; };
 		B37D9F4D22CD9459001384E3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9F4C22CD9459001384E3 /* ProfileViewController.swift */; };
 		B37D9F5022CD9459001384E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37D9F4E22CD9459001384E3 /* Main.storyboard */; };
@@ -36,9 +39,12 @@
 /* Begin PBXFileReference section */
 		B33712B922EBCBBA00883CB9 /* torch (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torch (1).png"; sourceTree = "<group>"; };
 		B33712BB22EBDB4400883CB9 /* public-museum-sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public-museum-sign.png"; sourceTree = "<group>"; };
+		B33EDDC922FBAE79004F4267 /* mainIcon32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon32px.png; sourceTree = "<group>"; };
+		B33EDDCB22FBB224004F4267 /* UIBarButtonItemX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemX.swift; sourceTree = "<group>"; };
 		B35E3DB222E8FE0D005968E3 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		B35E3DB322E8FE0D005968E3 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		B35E3DB422E8FE0D005968E3 /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		B37B9B8822F7BFE700FD776C /* mainIcon24px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon24px.png; sourceTree = "<group>"; };
 		B37D9F4722CD9459001384E3 /* blackbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blackbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37D9F4A22CD9459001384E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37D9F4C22CD9459001384E3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +88,8 @@
 				B35E3DB322E8FE0D005968E3 /* twitter.png */,
 				B33712B922EBCBBA00883CB9 /* torch (1).png */,
 				B33712BB22EBDB4400883CB9 /* public-museum-sign.png */,
+				B37B9B8822F7BFE700FD776C /* mainIcon24px.png */,
+				B33EDDC922FBAE79004F4267 /* mainIcon32px.png */,
 			);
 			path = Icons;
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 				B37D9F5E22CD97BE001384E3 /* UILabelX.swift */,
 				B37D9F5F22CD97BE001384E3 /* UIImageViewX.swift */,
 				B37D9F6022CD97BE001384E3 /* UIViewX.swift */,
+				B33EDDCB22FBB224004F4267 /* UIBarButtonItemX.swift */,
 			);
 			path = Designables;
 			sourceTree = "<group>";
@@ -225,9 +234,11 @@
 				B37D9F5222CD945C001384E3 /* Assets.xcassets in Resources */,
 				B33712BC22EBDB4500883CB9 /* public-museum-sign.png in Resources */,
 				B3C6D1D422EF335C00CCBA8A /* pikappFlag.jpg in Resources */,
+				B33EDDCA22FBAE7A004F4267 /* mainIcon32px.png in Resources */,
 				B3E2112522EA3C2700780A4F /* frat2.jpeg in Resources */,
 				B3E2112422EA3C2700780A4F /* frat4.jpeg in Resources */,
 				B37D9F5022CD9459001384E3 /* Main.storyboard in Resources */,
+				B37B9B8922F7BFE800FD776C /* mainIcon24px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +256,7 @@
 				B37D9F6222CD97BE001384E3 /* UILabelX.swift in Sources */,
 				B37D9F6422CD97BE001384E3 /* UIViewX.swift in Sources */,
 				B3E2111B22EA39D000780A4F /* FeaturedCell.swift in Sources */,
+				B33EDDCC22FBB224004F4267 /* UIBarButtonItemX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

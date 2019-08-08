@@ -15,6 +15,9 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
     @IBOutlet weak var factsTray: UIViewX!
     @IBOutlet weak var closedTrayContraint: NSLayoutConstraint!
     
+    @IBOutlet weak var fratNavButton: UIBarButtonItem!
+    @IBOutlet weak var brotherNavButton: UIBarButtonItem!
+    
     // @IBOutlet weak var closedTrayContraint: NSLayoutConstraint! // default 647
     @IBOutlet weak var trayHeight: NSLayoutConstraint!
     
@@ -64,6 +67,13 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.isTranslucent = true
+    }
+    
     
     // MARK: - IBAction Functions
     
@@ -85,11 +95,11 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
             let velocity = sender.velocity(in: view)
             if velocity.y > 0 { // user is swiping down
                 UIView.animate(withDuration: 0.3) {
-                    self.factsTray.center.y = self.ogCenter.y + 224
+                    self.factsTray.center.y = self.ogCenter.y + 200 //224
                 }
             } else {
                 UIView.animate(withDuration: 0.3) { // swiping up
-                    self.factsTray.center.y = self.ogCenter.y - 416
+                    self.factsTray.center.y = self.ogCenter.y - 420 //416
                 }
             }
         }
@@ -97,7 +107,11 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
         
     }
     
-
+    
+    // MARK: - Internal functions
+    func setNavBarTextAttributes() {
+        //fratNavButton.setTitleTextAttributes(<#T##attributes: [NSAttributedString.Key : Any]?##[NSAttributedString.Key : Any]?#>, for: <#T##UIControl.State#>)
+    }
 
 }
 
