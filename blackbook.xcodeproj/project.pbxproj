@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B332579022FF302F00249378 /* FratTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332578F22FF302F00249378 /* FratTableVC.swift */; };
 		B33712BA22EBCBBA00883CB9 /* torch (1).png in Resources */ = {isa = PBXBuildFile; fileRef = B33712B922EBCBBA00883CB9 /* torch (1).png */; };
 		B33712BC22EBDB4500883CB9 /* public-museum-sign.png in Resources */ = {isa = PBXBuildFile; fileRef = B33712BB22EBDB4400883CB9 /* public-museum-sign.png */; };
 		B33EDDCA22FBAE7A004F4267 /* mainIcon32px.png in Resources */ = {isa = PBXBuildFile; fileRef = B33EDDC922FBAE79004F4267 /* mainIcon32px.png */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B332578F22FF302F00249378 /* FratTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FratTableVC.swift; sourceTree = "<group>"; };
 		B33712B922EBCBBA00883CB9 /* torch (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torch (1).png"; sourceTree = "<group>"; };
 		B33712BB22EBDB4400883CB9 /* public-museum-sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "public-museum-sign.png"; sourceTree = "<group>"; };
 		B33EDDC922FBAE79004F4267 /* mainIcon32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon32px.png; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				B37D9F5C22CD97BE001384E3 /* Designables */,
 				B37D9F4A22CD9459001384E3 /* AppDelegate.swift */,
 				B37D9F4C22CD9459001384E3 /* ProfileViewController.swift */,
+				B332578F22FF302F00249378 /* FratTableVC.swift */,
 				B3E2111A22EA39D000780A4F /* FeaturedCell.swift */,
 				B3C6D1D222EF334700CCBA8A /* fratFlags */,
 				B3E2111C22EA3C0C00780A4F /* fratPics */,
@@ -256,6 +259,7 @@
 				B37D9F6222CD97BE001384E3 /* UILabelX.swift in Sources */,
 				B37D9F6422CD97BE001384E3 /* UIViewX.swift in Sources */,
 				B3E2111B22EA39D000780A4F /* FeaturedCell.swift in Sources */,
+				B332579022FF302F00249378 /* FratTableVC.swift in Sources */,
 				B33EDDCC22FBB224004F4267 /* UIBarButtonItemX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
