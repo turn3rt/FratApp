@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iLG-Bv-Qgn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iLG-Bv-Qgn">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -610,7 +610,7 @@ NICKNAME: Randy Yea</string>
                             <constraint firstItem="0tl-vM-WJh" firstAttribute="top" secondItem="9k4-RS-XCq" secondAttribute="top" constant="-24" id="aJm-jQ-X75"/>
                             <constraint firstItem="QzR-pt-qaz" firstAttribute="bottom" secondItem="0tl-vM-WJh" secondAttribute="bottom" id="cBj-vL-Rzy"/>
                             <constraint firstItem="QzR-pt-qaz" firstAttribute="trailing" secondItem="UXV-qX-cZQ" secondAttribute="trailing" id="hkZ-bt-aBV"/>
-                            <constraint firstItem="H5m-ss-8Dm" firstAttribute="top" secondItem="eSo-Fl-Ggo" secondAttribute="bottom" constant="598.66666666666652" id="m6p-Bi-pa7"/>
+                            <constraint firstItem="H5m-ss-8Dm" firstAttribute="top" secondItem="eSo-Fl-Ggo" secondAttribute="bottom" constant="598.66999999999996" id="m6p-Bi-pa7"/>
                             <constraint firstItem="KdZ-eX-I3H" firstAttribute="top" secondItem="3Kl-g9-atE" secondAttribute="bottom" constant="16" id="o8S-fa-Y99"/>
                             <constraint firstItem="eSo-Fl-Ggo" firstAttribute="leading" secondItem="UXV-qX-cZQ" secondAttribute="leading" id="qun-6f-TiP"/>
                             <constraint firstItem="eSo-Fl-Ggo" firstAttribute="top" secondItem="9k4-RS-XCq" secondAttribute="top" id="tan-JI-6qK"/>
@@ -647,7 +647,7 @@ NICKNAME: Randy Yea</string>
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="6788" y="-570"/>
+            <point key="canvasLocation" x="6788" y="-570.44334975369463"/>
         </scene>
         <!--Title-->
         <scene sceneID="X5x-aD-pKw">
@@ -971,35 +971,38 @@ NICKNAME: Randy Yea</string>
             </objects>
             <point key="canvasLocation" x="4700" y="-1277"/>
         </scene>
-        <!--Frat TableVC-->
+        <!--Frats-->
         <scene sceneID="U4h-0T-qWI">
             <objects>
                 <tableViewController id="XKs-nr-UA3" customClass="FratTableVC" customModule="blackbook" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4g4-JE-FGS">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4g4-JE-FGS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="228" id="Hna-3f-eKj">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FratFlagCell" rowHeight="228" id="Hna-3f-eKj" customClass="FratFlagCell" customModule="blackbook" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="228"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hna-3f-eKj" id="6x0-KN-Cv1">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="227.66666666666666"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hna-3f-eKj" id="6x0-KN-Cv1">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="228"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikappFlag.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ms5-0w-3TK" customClass="UIImageViewX" customModule="blackbook" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="219.66666666666666"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="219.66999999999999" id="9fc-fT-kFZ"/>
+                                            </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                     <real key="value" value="24"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </imageView>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eGx-YQ-a3E" customClass="UIViewX" customModule="blackbook" customModuleProvider="target">
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGx-YQ-a3E" customClass="UIViewX" customModule="blackbook" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="109.66666666666669" width="375" height="110"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIv-0U-5DS">
-                                                    <rect key="frame" x="16" y="59.999999999999986" width="343" height="42"/>
+                                                    <rect key="frame" x="16" y="60" width="343" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="42" id="Mk7-Hm-Ffb"/>
                                                     </constraints>
@@ -1038,6 +1041,10 @@ NICKNAME: Randy Yea</string>
                                         <constraint firstItem="eGx-YQ-a3E" firstAttribute="leading" secondItem="6x0-KN-Cv1" secondAttribute="leading" id="luH-5X-DrX"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="flag" destination="ms5-0w-3TK" id="4Tg-lR-SFA"/>
+                                    <outlet property="name" destination="eIv-0U-5DS" id="bio-B1-rtO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -1045,6 +1052,9 @@ NICKNAME: Randy Yea</string>
                             <outlet property="delegate" destination="XKs-nr-UA3" id="wRL-ka-PKA"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Frats" id="w3t-GW-2oK"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7W-sm-ZK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1071,12 +1081,12 @@ NICKNAME: Randy Yea</string>
         </scene>
     </scenes>
     <resources>
-        <image name="facebook.png" width="512" height="512"/>
+        <image name="facebook.png" width="409.60000610351562" height="409.60000610351562"/>
         <image name="fratpic.jpeg" width="736" height="1104"/>
-        <image name="instagram.png" width="512" height="512"/>
-        <image name="mainIcon32px.png" width="32" height="32"/>
-        <image name="pikappFlag.jpg" width="1500" height="1002"/>
-        <image name="public-museum-sign.png" width="512" height="512"/>
-        <image name="twitter.png" width="512" height="512"/>
+        <image name="instagram.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="mainIcon32px.png" width="24" height="24"/>
+        <image name="pikappFlag.jpg" width="180" height="120.23999786376953"/>
+        <image name="public-museum-sign.png" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="twitter.png" width="409.60000610351562" height="409.60000610351562"/>
     </resources>
 </document>

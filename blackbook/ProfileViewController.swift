@@ -72,6 +72,9 @@ class ProfileViewController: UIViewController, UICollectionViewDelegate, UIColle
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        // self.navigationController?.navigationBar.backgroundColor = UIColor.white
+
     }
     
     

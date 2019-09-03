@@ -27,6 +27,32 @@
 		B37D9F6422CD97BE001384E3 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D9F6022CD97BE001384E3 /* UIViewX.swift */; };
 		B37D9F6622CD9831001384E3 /* fratpic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B37D9F6522CD9831001384E3 /* fratpic.jpeg */; };
 		B37D9F6822CD9E2A001384E3 /* College Block 2.0 D.otf in Resources */ = {isa = PBXBuildFile; fileRef = B37D9F6722CD9DB9001384E3 /* College Block 2.0 D.otf */; };
+		B3A3A560231EF7300058EB01 /* DataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A3A55F231EF7300058EB01 /* DataSources.swift */; };
+		B3A3A562231EF9D50058EB01 /* FratFlagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A3A561231EF9D50058EB01 /* FratFlagCell.swift */; };
+		B3A3A57C231F049E0058EB01 /* FF21.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A564231F049E0058EB01 /* FF21.jpeg */; };
+		B3A3A57D231F049E0058EB01 /* FF2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A565231F049E0058EB01 /* FF2.jpeg */; };
+		B3A3A57E231F049E0058EB01 /* FF17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A566231F049E0058EB01 /* FF17.jpeg */; };
+		B3A3A57F231F049E0058EB01 /* FF16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A567231F049E0058EB01 /* FF16.jpeg */; };
+		B3A3A580231F049E0058EB01 /* FF3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A568231F049E0058EB01 /* FF3.jpeg */; };
+		B3A3A581231F049E0058EB01 /* FF20.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A569231F049E0058EB01 /* FF20.jpeg */; };
+		B3A3A582231F049E0058EB01 /* FF8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A56A231F049E0058EB01 /* FF8.jpeg */; };
+		B3A3A583231F049E0058EB01 /* FF11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A56B231F049E0058EB01 /* FF11.jpeg */; };
+		B3A3A584231F049E0058EB01 /* FF4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A56C231F049E0058EB01 /* FF4.jpeg */; };
+		B3A3A585231F049E0058EB01 /* FF23.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A56D231F049E0058EB01 /* FF23.jpeg */; };
+		B3A3A586231F049E0058EB01 /* FF5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A56E231F049E0058EB01 /* FF5.jpeg */; };
+		B3A3A587231F049E0058EB01 /* FF10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A56F231F049E0058EB01 /* FF10.jpeg */; };
+		B3A3A588231F049E0058EB01 /* FF9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A570231F049E0058EB01 /* FF9.jpeg */; };
+		B3A3A589231F049E0058EB01 /* FF13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A571231F049E0058EB01 /* FF13.jpeg */; };
+		B3A3A58A231F049E0058EB01 /* FF6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A572231F049E0058EB01 /* FF6.jpeg */; };
+		B3A3A58B231F049E0058EB01 /* FF24.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A573231F049E0058EB01 /* FF24.jpeg */; };
+		B3A3A58C231F049E0058EB01 /* FF7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A574231F049E0058EB01 /* FF7.jpeg */; };
+		B3A3A58D231F049E0058EB01 /* FF12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A575231F049E0058EB01 /* FF12.jpeg */; };
+		B3A3A58E231F049E0058EB01 /* FF19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A576231F049E0058EB01 /* FF19.jpeg */; };
+		B3A3A58F231F049E0058EB01 /* FF15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A577231F049E0058EB01 /* FF15.jpeg */; };
+		B3A3A590231F049E0058EB01 /* FF14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A578231F049E0058EB01 /* FF14.jpeg */; };
+		B3A3A591231F049E0058EB01 /* FF22.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A579231F049E0058EB01 /* FF22.jpeg */; };
+		B3A3A592231F049E0058EB01 /* FF1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A57A231F049E0058EB01 /* FF1.jpeg */; };
+		B3A3A593231F049E0058EB01 /* FF18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3A3A57B231F049E0058EB01 /* FF18.jpeg */; };
 		B3C6D1D422EF335C00CCBA8A /* pikappFlag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3C6D1D322EF335B00CCBA8A /* pikappFlag.jpg */; };
 		B3C6D1D622EF34F500CCBA8A /* pikappHouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3C6D1D522EF34F500CCBA8A /* pikappHouse.jpg */; };
 		B3E2111B22EA39D000780A4F /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E2111A22EA39D000780A4F /* FeaturedCell.swift */; };
@@ -60,6 +86,32 @@
 		B37D9F6022CD97BE001384E3 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		B37D9F6522CD9831001384E3 /* fratpic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fratpic.jpeg; sourceTree = "<group>"; };
 		B37D9F6722CD9DB9001384E3 /* College Block 2.0 D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "College Block 2.0 D.otf"; sourceTree = "<group>"; };
+		B3A3A55F231EF7300058EB01 /* DataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSources.swift; sourceTree = "<group>"; };
+		B3A3A561231EF9D50058EB01 /* FratFlagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FratFlagCell.swift; sourceTree = "<group>"; };
+		B3A3A564231F049E0058EB01 /* FF21.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF21.jpeg; sourceTree = "<group>"; };
+		B3A3A565231F049E0058EB01 /* FF2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF2.jpeg; sourceTree = "<group>"; };
+		B3A3A566231F049E0058EB01 /* FF17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF17.jpeg; sourceTree = "<group>"; };
+		B3A3A567231F049E0058EB01 /* FF16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF16.jpeg; sourceTree = "<group>"; };
+		B3A3A568231F049E0058EB01 /* FF3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF3.jpeg; sourceTree = "<group>"; };
+		B3A3A569231F049E0058EB01 /* FF20.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF20.jpeg; sourceTree = "<group>"; };
+		B3A3A56A231F049E0058EB01 /* FF8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF8.jpeg; sourceTree = "<group>"; };
+		B3A3A56B231F049E0058EB01 /* FF11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF11.jpeg; sourceTree = "<group>"; };
+		B3A3A56C231F049E0058EB01 /* FF4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF4.jpeg; sourceTree = "<group>"; };
+		B3A3A56D231F049E0058EB01 /* FF23.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF23.jpeg; sourceTree = "<group>"; };
+		B3A3A56E231F049E0058EB01 /* FF5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF5.jpeg; sourceTree = "<group>"; };
+		B3A3A56F231F049E0058EB01 /* FF10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF10.jpeg; sourceTree = "<group>"; };
+		B3A3A570231F049E0058EB01 /* FF9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF9.jpeg; sourceTree = "<group>"; };
+		B3A3A571231F049E0058EB01 /* FF13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF13.jpeg; sourceTree = "<group>"; };
+		B3A3A572231F049E0058EB01 /* FF6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF6.jpeg; sourceTree = "<group>"; };
+		B3A3A573231F049E0058EB01 /* FF24.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF24.jpeg; sourceTree = "<group>"; };
+		B3A3A574231F049E0058EB01 /* FF7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF7.jpeg; sourceTree = "<group>"; };
+		B3A3A575231F049E0058EB01 /* FF12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF12.jpeg; sourceTree = "<group>"; };
+		B3A3A576231F049E0058EB01 /* FF19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF19.jpeg; sourceTree = "<group>"; };
+		B3A3A577231F049E0058EB01 /* FF15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF15.jpeg; sourceTree = "<group>"; };
+		B3A3A578231F049E0058EB01 /* FF14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF14.jpeg; sourceTree = "<group>"; };
+		B3A3A579231F049E0058EB01 /* FF22.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF22.jpeg; sourceTree = "<group>"; };
+		B3A3A57A231F049E0058EB01 /* FF1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF1.jpeg; sourceTree = "<group>"; };
+		B3A3A57B231F049E0058EB01 /* FF18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FF18.jpeg; sourceTree = "<group>"; };
 		B3C6D1D322EF335B00CCBA8A /* pikappFlag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pikappFlag.jpg; sourceTree = "<group>"; };
 		B3C6D1D522EF34F500CCBA8A /* pikappHouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pikappHouse.jpg; sourceTree = "<group>"; };
 		B3E2111A22EA39D000780A4F /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
@@ -120,6 +172,9 @@
 				B37D9F4C22CD9459001384E3 /* ProfileViewController.swift */,
 				B332578F22FF302F00249378 /* FratTableVC.swift */,
 				B3E2111A22EA39D000780A4F /* FeaturedCell.swift */,
+				B3A3A55F231EF7300058EB01 /* DataSources.swift */,
+				B3A3A561231EF9D50058EB01 /* FratFlagCell.swift */,
+				B3A3A563231F049E0058EB01 /* FratFlags */,
 				B3C6D1D222EF334700CCBA8A /* fratFlags */,
 				B3E2111C22EA3C0C00780A4F /* fratPics */,
 				B35E3DAB22E8F7F2005968E3 /* Icons */,
@@ -142,6 +197,38 @@
 				B33EDDCB22FBB224004F4267 /* UIBarButtonItemX.swift */,
 			);
 			path = Designables;
+			sourceTree = "<group>";
+		};
+		B3A3A563231F049E0058EB01 /* FratFlags */ = {
+			isa = PBXGroup;
+			children = (
+				B3A3A564231F049E0058EB01 /* FF21.jpeg */,
+				B3A3A565231F049E0058EB01 /* FF2.jpeg */,
+				B3A3A566231F049E0058EB01 /* FF17.jpeg */,
+				B3A3A567231F049E0058EB01 /* FF16.jpeg */,
+				B3A3A568231F049E0058EB01 /* FF3.jpeg */,
+				B3A3A569231F049E0058EB01 /* FF20.jpeg */,
+				B3A3A56A231F049E0058EB01 /* FF8.jpeg */,
+				B3A3A56B231F049E0058EB01 /* FF11.jpeg */,
+				B3A3A56C231F049E0058EB01 /* FF4.jpeg */,
+				B3A3A56D231F049E0058EB01 /* FF23.jpeg */,
+				B3A3A56E231F049E0058EB01 /* FF5.jpeg */,
+				B3A3A56F231F049E0058EB01 /* FF10.jpeg */,
+				B3A3A570231F049E0058EB01 /* FF9.jpeg */,
+				B3A3A571231F049E0058EB01 /* FF13.jpeg */,
+				B3A3A572231F049E0058EB01 /* FF6.jpeg */,
+				B3A3A573231F049E0058EB01 /* FF24.jpeg */,
+				B3A3A574231F049E0058EB01 /* FF7.jpeg */,
+				B3A3A575231F049E0058EB01 /* FF12.jpeg */,
+				B3A3A576231F049E0058EB01 /* FF19.jpeg */,
+				B3A3A577231F049E0058EB01 /* FF15.jpeg */,
+				B3A3A578231F049E0058EB01 /* FF14.jpeg */,
+				B3A3A579231F049E0058EB01 /* FF22.jpeg */,
+				B3A3A57A231F049E0058EB01 /* FF1.jpeg */,
+				B3A3A57B231F049E0058EB01 /* FF18.jpeg */,
+			);
+			name = FratFlags;
+			path = fratFlags/FratFlags;
 			sourceTree = "<group>";
 		};
 		B3C6D1D222EF334700CCBA8A /* fratFlags */ = {
@@ -223,24 +310,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A3A584231F049E0058EB01 /* FF4.jpeg in Resources */,
+				B3A3A588231F049E0058EB01 /* FF9.jpeg in Resources */,
+				B3A3A58F231F049E0058EB01 /* FF15.jpeg in Resources */,
+				B3A3A592231F049E0058EB01 /* FF1.jpeg in Resources */,
 				B3E2112622EA3C2700780A4F /* frat1.jpeg in Resources */,
+				B3A3A587231F049E0058EB01 /* FF10.jpeg in Resources */,
 				B3E2112322EA3C2700780A4F /* frat5.jpeg in Resources */,
 				B33712BA22EBCBBA00883CB9 /* torch (1).png in Resources */,
+				B3A3A581231F049E0058EB01 /* FF20.jpeg in Resources */,
+				B3A3A58E231F049E0058EB01 /* FF19.jpeg in Resources */,
+				B3A3A580231F049E0058EB01 /* FF3.jpeg in Resources */,
 				B35E3DB722E8FE0E005968E3 /* instagram.png in Resources */,
 				B3C6D1D622EF34F500CCBA8A /* pikappHouse.jpg in Resources */,
 				B3E2112222EA3C2700780A4F /* frat3.jpeg in Resources */,
+				B3A3A589231F049E0058EB01 /* FF13.jpeg in Resources */,
+				B3A3A583231F049E0058EB01 /* FF11.jpeg in Resources */,
 				B37D9F5522CD945C001384E3 /* LaunchScreen.storyboard in Resources */,
+				B3A3A591231F049E0058EB01 /* FF22.jpeg in Resources */,
 				B37D9F6822CD9E2A001384E3 /* College Block 2.0 D.otf in Resources */,
+				B3A3A58C231F049E0058EB01 /* FF7.jpeg in Resources */,
+				B3A3A582231F049E0058EB01 /* FF8.jpeg in Resources */,
+				B3A3A57C231F049E0058EB01 /* FF21.jpeg in Resources */,
+				B3A3A57E231F049E0058EB01 /* FF17.jpeg in Resources */,
+				B3A3A57D231F049E0058EB01 /* FF2.jpeg in Resources */,
+				B3A3A593231F049E0058EB01 /* FF18.jpeg in Resources */,
 				B35E3DB522E8FE0E005968E3 /* facebook.png in Resources */,
+				B3A3A58A231F049E0058EB01 /* FF6.jpeg in Resources */,
 				B37D9F6622CD9831001384E3 /* fratpic.jpeg in Resources */,
 				B35E3DB622E8FE0E005968E3 /* twitter.png in Resources */,
+				B3A3A58D231F049E0058EB01 /* FF12.jpeg in Resources */,
+				B3A3A58B231F049E0058EB01 /* FF24.jpeg in Resources */,
 				B37D9F5222CD945C001384E3 /* Assets.xcassets in Resources */,
 				B33712BC22EBDB4500883CB9 /* public-museum-sign.png in Resources */,
+				B3A3A586231F049E0058EB01 /* FF5.jpeg in Resources */,
 				B3C6D1D422EF335C00CCBA8A /* pikappFlag.jpg in Resources */,
 				B33EDDCA22FBAE7A004F4267 /* mainIcon32px.png in Resources */,
+				B3A3A57F231F049E0058EB01 /* FF16.jpeg in Resources */,
 				B3E2112522EA3C2700780A4F /* frat2.jpeg in Resources */,
 				B3E2112422EA3C2700780A4F /* frat4.jpeg in Resources */,
 				B37D9F5022CD9459001384E3 /* Main.storyboard in Resources */,
+				B3A3A585231F049E0058EB01 /* FF23.jpeg in Resources */,
+				B3A3A590231F049E0058EB01 /* FF14.jpeg in Resources */,
 				B37B9B8922F7BFE800FD776C /* mainIcon24px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +363,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A3A560231EF7300058EB01 /* DataSources.swift in Sources */,
+				B3A3A562231EF9D50058EB01 /* FratFlagCell.swift in Sources */,
 				B37D9F4D22CD9459001384E3 /* ProfileViewController.swift in Sources */,
 				B37D9F6322CD97BE001384E3 /* UIImageViewX.swift in Sources */,
 				B37D9F4B22CD9459001384E3 /* AppDelegate.swift in Sources */,
