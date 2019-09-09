@@ -61,6 +61,7 @@
 		B3E2112422EA3C2700780A4F /* frat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3E2111F22EA3C2700780A4F /* frat4.jpeg */; };
 		B3E2112522EA3C2700780A4F /* frat2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3E2112022EA3C2700780A4F /* frat2.jpeg */; };
 		B3E2112622EA3C2700780A4F /* frat1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3E2112122EA3C2700780A4F /* frat1.jpeg */; };
+		B3EB753B231F2587002A7308 /* BrothersTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EB753A231F2587002A7308 /* BrothersTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +121,7 @@
 		B3E2111F22EA3C2700780A4F /* frat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frat4.jpeg; sourceTree = "<group>"; };
 		B3E2112022EA3C2700780A4F /* frat2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frat2.jpeg; sourceTree = "<group>"; };
 		B3E2112122EA3C2700780A4F /* frat1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frat1.jpeg; sourceTree = "<group>"; };
+		B3EB753A231F2587002A7308 /* BrothersTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrothersTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				B332578F22FF302F00249378 /* FratTableVC.swift */,
 				B3E2111A22EA39D000780A4F /* FeaturedCell.swift */,
 				B3A3A55F231EF7300058EB01 /* DataSources.swift */,
+				B3EB753A231F2587002A7308 /* BrothersTableVC.swift */,
 				B3A3A561231EF9D50058EB01 /* FratFlagCell.swift */,
 				B3A3A563231F049E0058EB01 /* FratFlags */,
 				B3C6D1D222EF334700CCBA8A /* fratFlags */,
@@ -369,6 +372,7 @@
 				B37D9F6322CD97BE001384E3 /* UIImageViewX.swift in Sources */,
 				B37D9F4B22CD9459001384E3 /* AppDelegate.swift in Sources */,
 				B37D9F6122CD97BE001384E3 /* UIButtonX.swift in Sources */,
+				B3EB753B231F2587002A7308 /* BrothersTableVC.swift in Sources */,
 				B37D9F6222CD97BE001384E3 /* UILabelX.swift in Sources */,
 				B37D9F6422CD97BE001384E3 /* UIViewX.swift in Sources */,
 				B3E2111B22EA39D000780A4F /* FeaturedCell.swift in Sources */,

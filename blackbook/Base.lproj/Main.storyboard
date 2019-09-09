@@ -1044,6 +1044,7 @@ NICKNAME: Randy Yea</string>
                                 <connections>
                                     <outlet property="flag" destination="ms5-0w-3TK" id="4Tg-lR-SFA"/>
                                     <outlet property="name" destination="eIv-0U-5DS" id="bio-B1-rtO"/>
+                                    <segue destination="evh-8G-eeP" kind="show" id="IyS-cB-tEt"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -1053,12 +1054,32 @@ NICKNAME: Randy Yea</string>
                         </connections>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Frats" id="w3t-GW-2oK"/>
+                    <navigationItem key="navigationItem" title="Frats" id="w3t-GW-2oK">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="eHF-Vi-wxt">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7W-sm-ZK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6788" y="-1236"/>
+        </scene>
+        <!--PI Kappa Phi-->
+        <scene sceneID="QbN-4a-kk7">
+            <objects>
+                <viewController id="lG3-R7-m2y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OUE-ZL-wl0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vg3-kV-jPx"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PI Kappa Phi" id="xRJ-37-phm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EO3-hY-HPI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8790" y="-1255"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XdQ-ES-LHM">
@@ -1078,6 +1099,86 @@ NICKNAME: Randy Yea</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VNB-7i-HyP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5981.6000000000004" y="-570.44334975369463"/>
+        </scene>
+        <!--Pi Kappa Phi-->
+        <scene sceneID="BZ9-SM-uB3">
+            <objects>
+                <tableViewController id="evh-8G-eeP" customClass="BrothersTableVC" customModule="blackbook" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="V59-4B-tbs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="pcCell" rowHeight="287" id="mTC-fP-6c3">
+                                <rect key="frame" x="0.0" y="28" width="375" height="287"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mTC-fP-6c3" id="WHn-rk-ggt">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="286.66666666666669"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3EI-6e-Dog">
+                                            <rect key="frame" x="16" y="19.333333333333343" width="343" height="248.00000000000003"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="248" id="4ID-tR-GBV"/>
+                                            </constraints>
+                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jQI-gs-2zM">
+                                                <size key="itemSize" width="150" height="247"/>
+                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            </collectionViewFlowLayout>
+                                            <cells>
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FeaturedCell" id="EHW-M7-cE1" customClass="FeaturedCell" customModule="blackbook" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.66666666666666663" width="150" height="247"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="247"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fratpic.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="l19-Ca-8oQ" customClass="UIImageViewX" customModule="blackbook" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="150" height="247"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="24"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </view>
+                                                    <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="l19-Ca-8oQ" secondAttribute="bottom" id="M23-5T-YtR"/>
+                                                        <constraint firstAttribute="trailing" secondItem="l19-Ca-8oQ" secondAttribute="trailing" id="QRJ-s9-q4b"/>
+                                                        <constraint firstItem="l19-Ca-8oQ" firstAttribute="top" secondItem="EHW-M7-cE1" secondAttribute="top" id="V0N-QE-8k2"/>
+                                                        <constraint firstItem="l19-Ca-8oQ" firstAttribute="leading" secondItem="EHW-M7-cE1" secondAttribute="leading" id="pfm-wz-BJm"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <outlet property="imageViewX" destination="l19-Ca-8oQ" id="OUJ-1c-BlJ"/>
+                                                    </connections>
+                                                </collectionViewCell>
+                                            </cells>
+                                        </collectionView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="3EI-6e-Dog" firstAttribute="leading" secondItem="WHn-rk-ggt" secondAttribute="leadingMargin" id="9uQ-hg-GeH"/>
+                                        <constraint firstItem="3EI-6e-Dog" firstAttribute="centerY" secondItem="WHn-rk-ggt" secondAttribute="centerY" id="Vny-5p-j4e"/>
+                                        <constraint firstItem="3EI-6e-Dog" firstAttribute="trailing" secondItem="WHn-rk-ggt" secondAttribute="trailingMargin" id="p5T-F3-FSw"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="evh-8G-eeP" id="AZd-9d-Nmg"/>
+                            <outlet property="delegate" destination="evh-8G-eeP" id="7wv-Mc-wpi"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Pi Kappa Phi" id="af0-Ol-2Ab"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LHv-m5-Yy5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7584.8000000000002" y="-1236.2068965517242"/>
         </scene>
     </scenes>
     <resources>
